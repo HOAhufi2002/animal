@@ -1,0 +1,75 @@
+/* Reset some default styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic styling */
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.event {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.event p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+
+/* Responsive design */
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    .event {
+        padding: 1rem;
+    }
+}
